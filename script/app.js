@@ -147,3 +147,11 @@
 
 //Day 2 Task 6 April 2023  "Zakat Calculator"
 
+var zakatPercentage;
+zakatPercentage = 0.025;
+var userInput=+ prompt( "Please Enter Your Amount : " )
+var result= userInput * zakatPercentage;
+// var message= "Your Zakat value is ";
+// var end= message + result;
+// alert(end)
+alert("Your Zakat value is " + result )
