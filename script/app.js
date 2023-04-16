@@ -44,7 +44,7 @@
 //  var originalNum = 23;
 //  var numToBeAdded = 7;
 //  var newNum = originalNum + numToBeAdded;
- 
+
 //  var originalNum = "23";
 // var newNum = originalNum + 7;
 
@@ -143,15 +143,3 @@
 
 //  var numberOfCats = prompt("How many cats?");
 //  var tooManyCats = numberOfCats + 1;
-
-
-//Day 2 Task 6 April 2023  "Zakat Calculator"
-
-var zakatPercentage;
-zakatPercentage = 0.025;
-var userInput=+ prompt( "Please Enter Your Amount : " )
-var result= userInput * zakatPercentage;
-// var message= "Your Zakat value is ";
-// var end= message + result;
-// alert(end)
-alert("Your Zakat value is " + result )
